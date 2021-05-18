@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* general */
+.bodyContainer {
+    min-height:100vh;
+    background-color: #cde9e9;
+}
+
+body {
+    font-family: 'Berkshire Swash', cursive;
+} 
+
+p {
+    font-family: 'Texturina', serif;
+    font-size: 18px;
+}
+
+.heading {
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(6, 12, 14);
+}
+
+a:hover, .captionFeaturedIC a:hover, .captionFeaturedQueen a:hover, .randomizer a:hover {
+    text-decoration: none;
+    color: #0d706b;
+}
+
+.linkTag {
+    text-decoration: none;
+}
+
+/* end general */
+
+/* about */
+.bodyAbout {
+    margin-top: 15px;
+}
+
+/* end about */
+
+/* home */
+.captionFeaturedIC{
+    background-color: rgb(6, 54, 94);
+    border: 10px ridge gray;
+}
+
+.captionFeaturedIC a, .captionFeaturedQueen a{
+    color: rgb(210, 226, 231);
+}
+
+.captionFeaturedQueen a:hover{
+    text-decoration: none;
+    color: #2dc0b9;
+}
+
+.captionFeatured{
+    background-color: rgb(161, 219, 221);
+    border: 10px ridge gray;
+    color: rgb(9, 14, 15);
+}
+
+.captionFeaturedQueen {
+    background-color: rgb(8, 82, 85);
+    border: 10px ridge gray;
+    color: rgb(210, 226, 231);
+}
+
+/* .captionFeaturedQueen a{
+    color: rgb(210, 226, 231);
+} */
+
+.dramaRow{
+    text-align: center;
+}
+/* end home */
+
+
+/* dramaSingle */
+.singleListCol{
+    text-align: center;
+}
+
+.singleList li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.singleSynopsis {
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+}
+
+/* end dramaSingle */
+
+
+/* actors */
+.actorRow{
+    text-align: center;
+}
+
+.actorRow a {
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+}
+
+.actorRow p {
+    font-size: 18px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* end actors */
+
+/* genre */
+.genreRow{
+    text-align: center;
+    padding: 15px;
+}
+
+.genreRow h3{
+    text-align: left;
+    margin-bottom: 15px;
+}
+/* end genre */
+
+/* contact */
+.contact h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact p {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.formCol {
+    text-align: center;
+}
+
+/* end contact */
+
+
+/* footer */
+.randomizer {
+    /* height: 50px;
+    width: auto; */
+    /* padding: 10px; */
+    text-align: center;
+    background-color: rgb(151, 202, 184);
+}
+
+.randomizer a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(189, 76, 31);
+    /* padding-top: 0px; */
+    /* padding-bottom: 10px; */
+}
+
+.copy {
+    padding-top: 15px;
+    text-align: center;
+    /* background-color: #cde9e9; */
+}
+/* end footer */
